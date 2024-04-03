@@ -1,31 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "momento",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "momento mod",
+	"description": "Still I have no clue about what this mod does!",
 	"authors": [
-		"Me!"
+		"Sario Aka. Raven's Soul"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Raven-s-Soul/Momento-FabricMod",
+		"sources": "https://github.com/Raven-s-Soul/Momento-FabricMod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT License",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.sario.momento.MomentoMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.sario.momento.MomentoModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"momento.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "momento.client.mixins.json",
 			"environment": "client"
 		}
 	],
