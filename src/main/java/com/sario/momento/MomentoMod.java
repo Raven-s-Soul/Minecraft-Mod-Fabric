@@ -11,7 +11,7 @@ public class MomentoMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		LOGGER.info("Hello Fabric world!");
+        ModItems.initialize();
 	}
 }
